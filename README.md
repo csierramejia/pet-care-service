@@ -1,20 +1,21 @@
-# Pet Health Service
+# Pet Care Service
 
-A microservice for managing the health records of pets. Built with Node.js, Express, and MongoDB.
+A microservice for managing the Care of pets. Built with Node.js, Express, Typescript and MongoDB.
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/)
 - [Docker](https://www.docker.com/)
 - [pnpm](https://pnpm.io/)
+- [Typescript](https://www.typescriptlang.org/)
 
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tu-usuario/pet-health-service.git
-   cd pet-health-service
+   git clone git@github.com:csierramejia/pet-care-service.git
+   cd pet-care-service
    ```
 
 2. Install dependencies:
@@ -48,5 +49,5 @@ kubectl delete -f service.yaml
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
 
-minikube service pet-health-service
+minikube service pet-care-service
 ```
