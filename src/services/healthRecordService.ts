@@ -1,4 +1,4 @@
-import { HealthRecord } from '../schemas/healthRecordSchema.js';
+import { HealthRecord } from '../schemas/healthRecordSchema';
 
 export const getHealthRecordsByDate = async (visitDate: Date) => {
   try {
